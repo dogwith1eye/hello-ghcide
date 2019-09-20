@@ -14,5 +14,5 @@ RUN nix-env --install cabal2nix
 RUN nix-env --install nix-prefetch-git
 RUN nix-env --install cabal-install
 
-# Set the default shell to bash
-ENV SHELL /bin/bash
+# Set the default shell to ash
+ENV SHELL /bin/ash
